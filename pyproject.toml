@@ -1,0 +1,22 @@
+[project]
+name = "unsupervised"
+version = "1.0.0"
+description = "Official implementation for Unsupervised Imitation Learning from Observation"
+readme = "README.md"
+requires-python = "==3.10.12"
+
+dependencies = [
+    "setuptools==59.5.0",
+    "importlib-metadata==4.13.0",
+    "torch",
+    "torchvision",
+    "torchaudio",
+    "gymnasium[mujoco]==0.29.1",
+    "gym==0.26.2",
+    "optuna==4.0.0",
+    "tensorboard_wrapper @ git+https://github.com/NathanGavenski/Tensorboard-Wrapper",
+    "il-datasets"
+]
+
+[tool.uv.sources]
+il-datasets = { path = "../IL-Datasets", editable = true }

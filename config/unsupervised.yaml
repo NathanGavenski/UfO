@@ -1,0 +1,63 @@
+Default:
+  lr: 5e-4
+  adversarial_lr: 1e-3
+  generator_lr: 5e-4
+  discriminator_lr: 1e-4
+  generator: 'MlpPolicy'
+  discriminator: 'RNNPolicy'
+  policy: 'MlpPolicy'
+  epoch_disc: 10
+
+Hopper-v4:
+  lr: 2.34e-05
+  adversarial_lr: 6.07e-06
+  generator_lr: 2.34e-05
+  discriminator_lr: 9.97e-04
+  generator: 'MlpPolicy'
+  discriminator: 'RNNPolicy'
+  policy: 'MlpPolicy'
+
+InvertedPendulum-v4:
+  lr: 2.01e-04
+  adversarial_lr: 1.18e-05
+  generator_lr: 2.01e-04
+  discriminator_lr: 2.41e-03
+  generator: 'MlpPolicy'
+  discriminator: 'RNNPolicy'
+  policy: 'MlpPolicy'
+
+Ant-v4:
+  lr: 2.34e-05
+  adversarial_lr: 6.07e-06
+  generator_lr: 2.34e-05
+  discriminator_lr: 9.97e-04
+  generator: 'MlpPolicy'
+  discriminator: 'RNNPolicy'
+  policy: 'MlpPolicy'
+
+Swimmer-v4:
+  lr: 4.70e-05
+  adversarial_lr: 1.47e-05
+  generator_lr: 4.70e-05
+  discriminator_lr: 2.67e-03
+  generator: 'MlpPolicy'
+  discriminator: 'RNNPolicy'
+  policy: 'MlpPolicy'
+
+Swimmer-v4:
+  lr: 4.96e-04
+  adversarial_lr: 1.80e-05
+  generator_lr: 4.96e-04
+  discriminator_lr: 4.33e-03
+  generator: 'MlpPolicy'
+  discriminator: 'RNNPolicy'
+  policy: 'MlpPolicy'
+
+HalfCheetah-v4:
+  lr: 2.34e-05
+  adversarial_lr: 6.07e-06
+  generator_lr: 2.34e-05
+  discriminator_lr: 9.97e-04
+  generator: 'MlpPolicy'
+  discriminator: 'RNNPolicy'
+  policy: 'MlpPolicy'
